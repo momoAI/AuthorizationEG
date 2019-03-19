@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFA3A03C2240DEFE000BF53E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA3A03B2240DEFE000BF53E /* AppDelegate.swift */; };
+		DFA3A03E2240DEFE000BF53E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA3A03D2240DEFE000BF53E /* ViewController.swift */; };
+		DFA3A0412240DEFE000BF53E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA3A03F2240DEFE000BF53E /* Main.storyboard */; };
+		DFA3A0432240DEFE000BF53E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA3A0422240DEFE000BF53E /* Assets.xcassets */; };
+		DFA3A0462240DEFE000BF53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA3A0442240DEFE000BF53E /* LaunchScreen.storyboard */; };
+		DFA3A0512240DEFE000BF53E /* AuthorizationEGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA3A0502240DEFE000BF53E /* AuthorizationEGTests.swift */; };
+		DFA3A05C2240DEFE000BF53E /* AuthorizationEGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA3A05B2240DEFE000BF53E /* AuthorizationEGUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFA3A04D2240DEFE000BF53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFA3A0302240DEFD000BF53E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFA3A0372240DEFE000BF53E;
+			remoteInfo = AuthorizationEG;
+		};
+		DFA3A0582240DEFE000BF53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFA3A0302240DEFD000BF53E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFA3A0372240DEFE000BF53E;
+			remoteInfo = AuthorizationEG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFA3A0382240DEFE000BF53E /* AuthorizationEG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthorizationEG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA3A03B2240DEFE000BF53E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFA3A03D2240DEFE000BF53E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFA3A0402240DEFE000BF53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFA3A0422240DEFE000BF53E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFA3A0452240DEFE000BF53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFA3A0472240DEFE000BF53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA3A04C2240DEFE000BF53E /* AuthorizationEGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthorizationEGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA3A0502240DEFE000BF53E /* AuthorizationEGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationEGTests.swift; sourceTree = "<group>"; };
+		DFA3A0522240DEFE000BF53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA3A0572240DEFE000BF53E /* AuthorizationEGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthorizationEGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA3A05B2240DEFE000BF53E /* AuthorizationEGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationEGUITests.swift; sourceTree = "<group>"; };
+		DFA3A05D2240DEFE000BF53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFA3A0352240DEFE000BF53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA3A0492240DEFE000BF53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA3A0542240DEFE000BF53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFA3A02F2240DEFD000BF53E = {
+			isa = PBXGroup;
+			children = (
+				DFA3A03A2240DEFE000BF53E /* AuthorizationEG */,
+				DFA3A04F2240DEFE000BF53E /* AuthorizationEGTests */,
+				DFA3A05A2240DEFE000BF53E /* AuthorizationEGUITests */,
+				DFA3A0392240DEFE000BF53E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFA3A0392240DEFE000BF53E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFA3A0382240DEFE000BF53E /* AuthorizationEG.app */,
+				DFA3A04C2240DEFE000BF53E /* AuthorizationEGTests.xctest */,
+				DFA3A0572240DEFE000BF53E /* AuthorizationEGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFA3A03A2240DEFE000BF53E /* AuthorizationEG */ = {
+			isa = PBXGroup;
+			children = (
+				DFA3A03B2240DEFE000BF53E /* AppDelegate.swift */,
+				DFA3A03D2240DEFE000BF53E /* ViewController.swift */,
+				DFA3A03F2240DEFE000BF53E /* Main.storyboard */,
+				DFA3A0422240DEFE000BF53E /* Assets.xcassets */,
+				DFA3A0442240DEFE000BF53E /* LaunchScreen.storyboard */,
+				DFA3A0472240DEFE000BF53E /* Info.plist */,
+			);
+			path = AuthorizationEG;
+			sourceTree = "<group>";
+		};
+		DFA3A04F2240DEFE000BF53E /* AuthorizationEGTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFA3A0502240DEFE000BF53E /* AuthorizationEGTests.swift */,
+				DFA3A0522240DEFE000BF53E /* Info.plist */,
+			);
+			path = AuthorizationEGTests;
+			sourceTree = "<group>";
+		};
+		DFA3A05A2240DEFE000BF53E /* AuthorizationEGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFA3A05B2240DEFE000BF53E /* AuthorizationEGUITests.swift */,
+				DFA3A05D2240DEFE000BF53E /* Info.plist */,
+			);
+			path = AuthorizationEGUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFA3A0372240DEFE000BF53E /* AuthorizationEG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA3A0602240DEFE000BF53E /* Build configuration list for PBXNativeTarget "AuthorizationEG" */;
+			buildPhases = (
+				DFA3A0342240DEFE000BF53E /* Sources */,
+				DFA3A0352240DEFE000BF53E /* Frameworks */,
+				DFA3A0362240DEFE000BF53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthorizationEG;
+			productName = AuthorizationEG;
+			productReference = DFA3A0382240DEFE000BF53E /* AuthorizationEG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFA3A04B2240DEFE000BF53E /* AuthorizationEGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA3A0632240DEFE000BF53E /* Build configuration list for PBXNativeTarget "AuthorizationEGTests" */;
+			buildPhases = (
+				DFA3A0482240DEFE000BF53E /* Sources */,
+				DFA3A0492240DEFE000BF53E /* Frameworks */,
+				DFA3A04A2240DEFE000BF53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFA3A04E2240DEFE000BF53E /* PBXTargetDependency */,
+			);
+			name = AuthorizationEGTests;
+			productName = AuthorizationEGTests;
+			productReference = DFA3A04C2240DEFE000BF53E /* AuthorizationEGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFA3A0562240DEFE000BF53E /* AuthorizationEGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA3A0662240DEFE000BF53E /* Build configuration list for PBXNativeTarget "AuthorizationEGUITests" */;
+			buildPhases = (
+				DFA3A0532240DEFE000BF53E /* Sources */,
+				DFA3A0542240DEFE000BF53E /* Frameworks */,
+				DFA3A0552240DEFE000BF53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFA3A0592240DEFE000BF53E /* PBXTargetDependency */,
+			);
+			name = AuthorizationEGUITests;
+			productName = AuthorizationEGUITests;
+			productReference = DFA3A0572240DEFE000BF53E /* AuthorizationEGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFA3A0302240DEFD000BF53E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = lx;
+				TargetAttributes = {
+					DFA3A0372240DEFE000BF53E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					DFA3A04B2240DEFE000BF53E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DFA3A0372240DEFE000BF53E;
+					};
+					DFA3A0562240DEFE000BF53E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DFA3A0372240DEFE000BF53E;
+					};
+				};
+			};
+			buildConfigurationList = DFA3A0332240DEFD000BF53E /* Build configuration list for PBXProject "AuthorizationEG" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFA3A02F2240DEFD000BF53E;
+			productRefGroup = DFA3A0392240DEFE000BF53E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFA3A0372240DEFE000BF53E /* AuthorizationEG */,
+				DFA3A04B2240DEFE000BF53E /* AuthorizationEGTests */,
+				DFA3A0562240DEFE000BF53E /* AuthorizationEGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFA3A0362240DEFE000BF53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA3A0462240DEFE000BF53E /* LaunchScreen.storyboard in Resources */,
+				DFA3A0432240DEFE000BF53E /* Assets.xcassets in Resources */,
+				DFA3A0412240DEFE000BF53E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA3A04A2240DEFE000BF53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA3A0552240DEFE000BF53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFA3A0342240DEFE000BF53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA3A03E2240DEFE000BF53E /* ViewController.swift in Sources */,
+				DFA3A03C2240DEFE000BF53E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA3A0482240DEFE000BF53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA3A0512240DEFE000BF53E /* AuthorizationEGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA3A0532240DEFE000BF53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA3A05C2240DEFE000BF53E /* AuthorizationEGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFA3A04E2240DEFE000BF53E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFA3A0372240DEFE000BF53E /* AuthorizationEG */;
+			targetProxy = DFA3A04D2240DEFE000BF53E /* PBXContainerItemProxy */;
+		};
+		DFA3A0592240DEFE000BF53E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFA3A0372240DEFE000BF53E /* AuthorizationEG */;
+			targetProxy = DFA3A0582240DEFE000BF53E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFA3A03F2240DEFE000BF53E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFA3A0402240DEFE000BF53E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFA3A0442240DEFE000BF53E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFA3A0452240DEFE000BF53E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFA3A05E2240DEFE000BF53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFA3A05F2240DEFE000BF53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFA3A0612240DEFE000BF53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R45LY736NP;
+				INFOPLIST_FILE = AuthorizationEG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AuthorizationEG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFA3A0622240DEFE000BF53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R45LY736NP;
+				INFOPLIST_FILE = AuthorizationEG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AuthorizationEG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFA3A0642240DEFE000BF53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R45LY736NP;
+				INFOPLIST_FILE = AuthorizationEGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AuthorizationEGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthorizationEG.app/AuthorizationEG";
+			};
+			name = Debug;
+		};
+		DFA3A0652240DEFE000BF53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R45LY736NP;
+				INFOPLIST_FILE = AuthorizationEGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AuthorizationEGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthorizationEG.app/AuthorizationEG";
+			};
+			name = Release;
+		};
+		DFA3A0672240DEFE000BF53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R45LY736NP;
+				INFOPLIST_FILE = AuthorizationEGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AuthorizationEGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AuthorizationEG;
+			};
+			name = Debug;
+		};
+		DFA3A0682240DEFE000BF53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R45LY736NP;
+				INFOPLIST_FILE = AuthorizationEGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AuthorizationEGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AuthorizationEG;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFA3A0332240DEFD000BF53E /* Build configuration list for PBXProject "AuthorizationEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA3A05E2240DEFE000BF53E /* Debug */,
+				DFA3A05F2240DEFE000BF53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA3A0602240DEFE000BF53E /* Build configuration list for PBXNativeTarget "AuthorizationEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA3A0612240DEFE000BF53E /* Debug */,
+				DFA3A0622240DEFE000BF53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA3A0632240DEFE000BF53E /* Build configuration list for PBXNativeTarget "AuthorizationEGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA3A0642240DEFE000BF53E /* Debug */,
+				DFA3A0652240DEFE000BF53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA3A0662240DEFE000BF53E /* Build configuration list for PBXNativeTarget "AuthorizationEGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA3A0672240DEFE000BF53E /* Debug */,
+				DFA3A0682240DEFE000BF53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFA3A0302240DEFD000BF53E /* Project object */;
+}
