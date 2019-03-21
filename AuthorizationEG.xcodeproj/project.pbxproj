@@ -14,6 +14,8 @@
 		DFA3A0462240DEFE000BF53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA3A0442240DEFE000BF53E /* LaunchScreen.storyboard */; };
 		DFA3A0512240DEFE000BF53E /* AuthorizationEGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA3A0502240DEFE000BF53E /* AuthorizationEGTests.swift */; };
 		DFA3A05C2240DEFE000BF53E /* AuthorizationEGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA3A05B2240DEFE000BF53E /* AuthorizationEGUITests.swift */; };
+		DFA3A06A224212D0000BF53E /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA3A069224212D0000BF53E /* test.png */; };
+		F9368833EFC686E748ABFA98 /* Pods_AuthorizationEG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A043F7D1A7D72A77A08BC8E6 /* Pods_AuthorizationEG.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6731F8BCC103ABFD1D368A14 /* Pods-AuthorizationEG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthorizationEG.release.xcconfig"; path = "Pods/Target Support Files/Pods-AuthorizationEG/Pods-AuthorizationEG.release.xcconfig"; sourceTree = "<group>"; };
+		A043F7D1A7D72A77A08BC8E6 /* Pods_AuthorizationEG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthorizationEG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13759A00E667137492E1D93 /* Pods-AuthorizationEG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthorizationEG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuthorizationEG/Pods-AuthorizationEG.debug.xcconfig"; sourceTree = "<group>"; };
 		DFA3A0382240DEFE000BF53E /* AuthorizationEG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthorizationEG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA3A03B2240DEFE000BF53E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFA3A03D2240DEFE000BF53E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		DFA3A0572240DEFE000BF53E /* AuthorizationEGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthorizationEGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA3A05B2240DEFE000BF53E /* AuthorizationEGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationEGUITests.swift; sourceTree = "<group>"; };
 		DFA3A05D2240DEFE000BF53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA3A069224212D0000BF53E /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9368833EFC686E748ABFA98 /* Pods_AuthorizationEG.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +81,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22DFDEE00473246130659E52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D13759A00E667137492E1D93 /* Pods-AuthorizationEG.debug.xcconfig */,
+				6731F8BCC103ABFD1D368A14 /* Pods-AuthorizationEG.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A353242A518E060028E67A90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A043F7D1A7D72A77A08BC8E6 /* Pods_AuthorizationEG.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DFA3A02F2240DEFD000BF53E = {
 			isa = PBXGroup;
 			children = (
+				DFA3A069224212D0000BF53E /* test.png */,
 				DFA3A03A2240DEFE000BF53E /* AuthorizationEG */,
 				DFA3A04F2240DEFE000BF53E /* AuthorizationEGTests */,
 				DFA3A05A2240DEFE000BF53E /* AuthorizationEGUITests */,
 				DFA3A0392240DEFE000BF53E /* Products */,
+				22DFDEE00473246130659E52 /* Pods */,
+				A353242A518E060028E67A90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFA3A0602240DEFE000BF53E /* Build configuration list for PBXNativeTarget "AuthorizationEG" */;
 			buildPhases = (
+				D6F48E22DFCE928B6153BA8A /* [CP] Check Pods Manifest.lock */,
 				DFA3A0342240DEFE000BF53E /* Sources */,
 				DFA3A0352240DEFE000BF53E /* Frameworks */,
 				DFA3A0362240DEFE000BF53E /* Resources */,
+				734B8FDFE69E16C04149DCD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFA3A0462240DEFE000BF53E /* LaunchScreen.storyboard in Resources */,
+				DFA3A06A224212D0000BF53E /* test.png in Resources */,
 				DFA3A0432240DEFE000BF53E /* Assets.xcassets in Resources */,
 				DFA3A0412240DEFE000BF53E /* Main.storyboard in Resources */,
 			);
@@ -250,6 +280,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		734B8FDFE69E16C04149DCD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AuthorizationEG/Pods-AuthorizationEG-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AuthorizationEG/Pods-AuthorizationEG-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F48E22DFCE928B6153BA8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthorizationEG-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DFA3A0342240DEFE000BF53E /* Sources */ = {
@@ -430,6 +501,7 @@
 		};
 		DFA3A0612240DEFE000BF53E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13759A00E667137492E1D93 /* Pods-AuthorizationEG.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +520,7 @@
 		};
 		DFA3A0622240DEFE000BF53E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6731F8BCC103ABFD1D368A14 /* Pods-AuthorizationEG.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
